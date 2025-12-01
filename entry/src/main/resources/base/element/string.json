@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "HabitTimer module for tracking daily habits on wearable devices"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "HabitTimer main ability"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "HabitTimer"
+    },
+    {
+      "name": "habit_reading",
+      "value": "Reading"
+    },
+    {
+      "name": "habit_exercise",
+      "value": "Exercise"
+    },
+    {
+      "name": "habit_meditation",
+      "value": "Meditation"
+    },
+    {
+      "name": "habit_study",
+      "value": "Study"
+    },
+    {
+      "name": "habit_practice",
+      "value": "Practice"
+    }
+  ]
+}

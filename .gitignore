@@ -1,0 +1,11 @@
+node_modules
+oh_modules
+.idea
+.hvigor
+.cache
+build
+local.properties
+*.hap
+*.app
+.clang-format
+code-linter.json5
