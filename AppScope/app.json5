@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.example",
+    "bundleName": "com.hmosdemos.wearable.how_to_use_arkdata_kit",
     "vendor": "hmosdemos",
     "versionCode": 1000000,
     "versionName": "1.0.0",

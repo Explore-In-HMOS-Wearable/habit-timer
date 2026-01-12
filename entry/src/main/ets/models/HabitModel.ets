@@ -6,32 +6,32 @@
  * Represents a habit that can be tracked
  */
 export interface Habit {
-  id: string; // Unique identifier
-  name: string; // Display name of the habit
-  icon: string; // Icon identifier or emoji
-  color: string; // Color code for UI theming
-  todayDuration: number; // Time spent today in seconds
-  totalDuration: number; // Total time spent all-time in seconds
-  lastActive: number; // Timestamp of last activity
+  id: string;
+  name: string;
+  icon: string;
+  color: string;
+  todayDuration: number;
+  totalDuration: number;
+  lastActive: number;
 }
 
 /**
  * Timer state for tracking active sessions
  */
 export interface TimerState {
-  isRunning: boolean; // Whether timer is currently active
-  currentHabitId: string; // ID of habit being timed
-  startTime: number; // Timestamp when timer started
-  elapsedTime: number; // Elapsed time in current session (seconds)
+  isRunning: boolean;
+  currentHabitId: string;
+  startTime: number;
+  elapsedTime: number;
 }
 
 /**
  * Daily record for habit tracking
  */
 export interface DailyRecord {
-  date: string; // Date in YYYY-MM-DD format
-  habitId: string; // Habit ID
-  duration: number; // Duration in seconds
+  date: string;
+  habitId: string;
+  duration: number;
 }
 
 /**
@@ -43,9 +43,6 @@ export class StorageKeys {
   static readonly LAST_DATE = 'last_date';
 }
 
-/**
- * Default habits configuration
- */
 export const DEFAULT_HABITS: Habit[] = [
   {
     id: 'reading',
